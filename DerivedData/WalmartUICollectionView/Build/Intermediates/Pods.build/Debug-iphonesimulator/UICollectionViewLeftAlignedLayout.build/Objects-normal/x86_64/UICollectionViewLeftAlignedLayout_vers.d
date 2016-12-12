@@ -1,2 +1,0 @@
-dependencies: \
-  /Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Intermediates/Pods.build/Debug-iphonesimulator/UICollectionViewLeftAlignedLayout.build/DerivedSources/UICollectionViewLeftAlignedLayout_vers.c

@@ -1,1 +1,0 @@
- const unsigned char UICollectionViewLeftAlignedLayoutVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:UICollectionViewLeftAlignedLayout  PROJECT:Pods-1" "\n"; const double UICollectionViewLeftAlignedLayoutVersionNumber __attribute__ ((used)) = (double)1.;
