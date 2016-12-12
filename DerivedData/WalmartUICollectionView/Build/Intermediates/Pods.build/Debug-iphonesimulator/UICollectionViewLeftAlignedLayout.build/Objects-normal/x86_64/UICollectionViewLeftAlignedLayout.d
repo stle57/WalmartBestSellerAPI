@@ -1,0 +1,4 @@
+dependencies: \
+  /Users/LeFamily/Development/WalmartUICollectionView/Pods/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.m \
+  /Users/LeFamily/Development/WalmartUICollectionView/Pods/Target\ Support\ Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-prefix.pch \
+  /Users/LeFamily/Development/WalmartUICollectionView/Pods/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.h

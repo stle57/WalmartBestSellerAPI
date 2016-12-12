@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CB0457C3EEC170D77911B3523E34B2 /* UICollectionViewLeftAlignedLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12545B80A0B4402D7D93BEFC0F56535B /* UICollectionViewLeftAlignedLayout-dummy.m */; };
+		1398E6F7C98B43E6822B8F8C98081CD7 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC44CFD92F87559715D6DE8484F752A /* TTTAttributedLabel.m */; };
+		394AAC722841CBF83FF5BDC20EABEBFD /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A0C4B13EBC7502EFB651376E056D4B /* UICollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BE6641E68F943A218E2307918B107C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */; };
+		7233644AB9C0C49A0B5F64516A481454 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */; };
+		73CDBDC05E8B49BC79719F7FDD9FDDDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+		76FB2E62647AEAAF34BD0FEDA52B2384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+		86C165F722F3D9B332DAB7D25373D182 /* Pods-WalmartUICollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F5ABE04935289401E02641DFF977B4 /* Pods-WalmartUICollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A60871F5C9FEF775B2506E069EB0D52 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6CA682D95B7DEC0442EC69DA122646 /* UICollectionViewLeftAlignedLayout.m */; };
+		9BA6B83A5544090E91F1042FF14EA20A /* TTTAttributedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A5B32FC0049D1D51D8A8F02AD01DF /* TTTAttributedLabel-dummy.m */; };
+		CF5BD394D24066A1C7CA0446F7EA6D2C /* TTTAttributedLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DB319F2ADBE86682F21EBE72CD3003 /* TTTAttributedLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0592DBBFF560826803CD1BF75072B2F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */; };
+		D1FDDA0FFB186B5B2DC6830FB4BC900C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */; };
+		D9B272E7F64AFFDBDF17B449541CA7E3 /* Pods-WalmartUICollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E6E3C710EE9E0F9C1C308C0384C0C0 /* Pods-WalmartUICollectionView-dummy.m */; };
+		E58D3F4ADEEF6B1081084C9489FC92EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */; };
+		ECE755D2C004978D6F65D33CAEC9D09E /* UICollectionViewLeftAlignedLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A2D24331C3891317FD9CA2A705C122 /* UICollectionViewLeftAlignedLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE7FE4349E50E1DD8FFCBC4CE6374E6A /* TTTAttributedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BC8DDCE2D68ED099A665C325C286E7 /* TTTAttributedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D3C292B7245E563D2A8D9E71297336C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED80C6698BB04563BA2E3956C26B7FD9;
+			remoteInfo = TTTAttributedLabel;
+		};
+		BB08E5B8E9AD000F30FF61224066AA2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1095C6E24FF651D31330FBA38A063D04;
+			remoteInfo = UICollectionViewLeftAlignedLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027475B099E8A038468AD04889CD5D65 /* UICollectionViewLeftAlignedLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UICollectionViewLeftAlignedLayout.xcconfig; sourceTree = "<group>"; };
+		0D048D0E7A43E9550AFDBB9F8097E91B /* Pods_WalmartUICollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WalmartUICollectionView.framework; path = "Pods-WalmartUICollectionView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12545B80A0B4402D7D93BEFC0F56535B /* UICollectionViewLeftAlignedLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewLeftAlignedLayout-dummy.m"; sourceTree = "<group>"; };
+		143A5B32FC0049D1D51D8A8F02AD01DF /* TTTAttributedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TTTAttributedLabel-dummy.m"; sourceTree = "<group>"; };
+		1F6CFC150279379274FF6F9089CA2D0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CEF59F46650E41719298AF50E4D03C /* UICollectionViewLeftAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UICollectionViewLeftAlignedLayout.framework; path = UICollectionViewLeftAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44F920118480FC501E28D62ABB8A415D /* TTTAttributedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TTTAttributedLabel.xcconfig; sourceTree = "<group>"; };
+		470E146364FB2C5A9D461C924E74E9A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F760F5D37917BA9E59DEE436A578A73 /* Pods-WalmartUICollectionView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WalmartUICollectionView-acknowledgements.plist"; sourceTree = "<group>"; };
+		57F5ABE04935289401E02641DFF977B4 /* Pods-WalmartUICollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WalmartUICollectionView-umbrella.h"; sourceTree = "<group>"; };
+		5CE43C797C3876D27789BFEB5B4ED22B /* TTTAttributedLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TTTAttributedLabel.modulemap; sourceTree = "<group>"; };
+		5F8BA254213C3D69D6D9AA8E2058A1CB /* Pods-WalmartUICollectionView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartUICollectionView-resources.sh"; sourceTree = "<group>"; };
+		64C688E01DF62F1ABF0D410B9B1A76E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E6E3C710EE9E0F9C1C308C0384C0C0 /* Pods-WalmartUICollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WalmartUICollectionView-dummy.m"; sourceTree = "<group>"; };
+		74A2D24331C3891317FD9CA2A705C122 /* UICollectionViewLeftAlignedLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLeftAlignedLayout-umbrella.h"; sourceTree = "<group>"; };
+		755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		7CB2952E7FD11410FBEC76C0C7B6E565 /* TTTAttributedLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TTTAttributedLabel.framework; path = TTTAttributedLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E73173EC8A903A26ECFDFC09FEDBFD8 /* Pods-WalmartUICollectionView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartUICollectionView.release.xcconfig"; sourceTree = "<group>"; };
+		85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8ABDD2DBDCCC887610C1D5D255C5BEC6 /* Pods-WalmartUICollectionView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WalmartUICollectionView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4A0C4B13EBC7502EFB651376E056D4B /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UICollectionViewLeftAlignedLayout.h; path = UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		ABC44CFD92F87559715D6DE8484F752A /* TTTAttributedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TTTAttributedLabel.m; path = TTTAttributedLabel/TTTAttributedLabel.m; sourceTree = "<group>"; };
+		B0BC8DDCE2D68ED099A665C325C286E7 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TTTAttributedLabel.h; path = TTTAttributedLabel/TTTAttributedLabel.h; sourceTree = "<group>"; };
+		BB6CA682D95B7DEC0442EC69DA122646 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UICollectionViewLeftAlignedLayout.m; path = UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
+		BDA95D143FDB933E5AD81BF32AFFCD0E /* Pods-WalmartUICollectionView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WalmartUICollectionView-frameworks.sh"; sourceTree = "<group>"; };
+		C2B23332FD018613210FCBB3FC1DCB35 /* UICollectionViewLeftAlignedLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewLeftAlignedLayout-prefix.pch"; sourceTree = "<group>"; };
+		CB7DEDDCAEE2BB197269F932B757B5FF /* TTTAttributedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-prefix.pch"; sourceTree = "<group>"; };
+		E2DB319F2ADBE86682F21EBE72CD3003 /* TTTAttributedLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TTTAttributedLabel-umbrella.h"; sourceTree = "<group>"; };
+		E3F41C7C8271359080648E44821CBE66 /* Pods-WalmartUICollectionView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WalmartUICollectionView.debug.xcconfig"; sourceTree = "<group>"; };
+		EF7E4991714FBC895AED735626873372 /* Pods-WalmartUICollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WalmartUICollectionView.modulemap"; sourceTree = "<group>"; };
+		EFE22387EA9BFCAF18FE689DF450B104 /* UICollectionViewLeftAlignedLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = UICollectionViewLeftAlignedLayout.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D66C838647CFD6CC30ED0D0A4BB72F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76FB2E62647AEAAF34BD0FEDA52B2384 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F55B717093B3AF42564D3330F309EEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BE6641E68F943A218E2307918B107C /* CoreGraphics.framework in Frameworks */,
+				7233644AB9C0C49A0B5F64516A481454 /* CoreText.framework in Frameworks */,
+				D1FDDA0FFB186B5B2DC6830FB4BC900C /* Foundation.framework in Frameworks */,
+				D0592DBBFF560826803CD1BF75072B2F /* QuartzCore.framework in Frameworks */,
+				E58D3F4ADEEF6B1081084C9489FC92EB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7201467A1DE0E305A5F2403C20F12698 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73CDBDC05E8B49BC79719F7FDD9FDDDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F70C37D103F1D7F19E68692FCC7BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D048D0E7A43E9550AFDBB9F8097E91B /* Pods_WalmartUICollectionView.framework */,
+				7CB2952E7FD11410FBEC76C0C7B6E565 /* TTTAttributedLabel.framework */,
+				26CEF59F46650E41719298AF50E4D03C /* UICollectionViewLeftAlignedLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9E8DF9CD1A6B6ACCFA6BA1C5FC74A2 /* Pods-WalmartUICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				1F6CFC150279379274FF6F9089CA2D0C /* Info.plist */,
+				EF7E4991714FBC895AED735626873372 /* Pods-WalmartUICollectionView.modulemap */,
+				8ABDD2DBDCCC887610C1D5D255C5BEC6 /* Pods-WalmartUICollectionView-acknowledgements.markdown */,
+				4F760F5D37917BA9E59DEE436A578A73 /* Pods-WalmartUICollectionView-acknowledgements.plist */,
+				73E6E3C710EE9E0F9C1C308C0384C0C0 /* Pods-WalmartUICollectionView-dummy.m */,
+				BDA95D143FDB933E5AD81BF32AFFCD0E /* Pods-WalmartUICollectionView-frameworks.sh */,
+				5F8BA254213C3D69D6D9AA8E2058A1CB /* Pods-WalmartUICollectionView-resources.sh */,
+				57F5ABE04935289401E02641DFF977B4 /* Pods-WalmartUICollectionView-umbrella.h */,
+				E3F41C7C8271359080648E44821CBE66 /* Pods-WalmartUICollectionView.debug.xcconfig */,
+				7E73173EC8A903A26ECFDFC09FEDBFD8 /* Pods-WalmartUICollectionView.release.xcconfig */,
+			);
+			name = "Pods-WalmartUICollectionView";
+			path = "Target Support Files/Pods-WalmartUICollectionView";
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2357B0F38644467A148935873DB46F1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FA9FB1B2A6FEF7AB37F5E77E7A39A5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57CAD8EA40B89C2BE688D7709C8BF97B /* TTTAttributedLabel */,
+				89B7DF75C55F99F7F46AB8A49718757A /* UICollectionViewLeftAlignedLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57CAD8EA40B89C2BE688D7709C8BF97B /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				B0BC8DDCE2D68ED099A665C325C286E7 /* TTTAttributedLabel.h */,
+				ABC44CFD92F87559715D6DE8484F752A /* TTTAttributedLabel.m */,
+				F74D989751814B2B9D301954790D8FE1 /* Support Files */,
+			);
+			name = TTTAttributedLabel;
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				3FA9FB1B2A6FEF7AB37F5E77E7A39A5B /* Pods */,
+				11F70C37D103F1D7F19E68692FCC7BD2 /* Products */,
+				ED711A8EF4E05C0E888FB56E0E9E8961 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89B7DF75C55F99F7F46AB8A49718757A /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0C4B13EBC7502EFB651376E056D4B /* UICollectionViewLeftAlignedLayout.h */,
+				BB6CA682D95B7DEC0442EC69DA122646 /* UICollectionViewLeftAlignedLayout.m */,
+				E0AA8DF6971A1680E3964076328C8FE6 /* Support Files */,
+			);
+			name = UICollectionViewLeftAlignedLayout;
+			path = UICollectionViewLeftAlignedLayout;
+			sourceTree = "<group>";
+		};
+		D2357B0F38644467A148935873DB46F1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				29AA6E4C10206C3EE9ADFA1D694F1143 /* CoreGraphics.framework */,
+				755FAE73277FCB766461DDF0A4841EC5 /* CoreText.framework */,
+				30A48DB1C8052F1B842C0010D6FE3264 /* Foundation.framework */,
+				A9584A1F2D6F127A85944AD33BEA278D /* QuartzCore.framework */,
+				85FDCAA1EADCFD367E1698CDE25DE0DF /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E0AA8DF6971A1680E3964076328C8FE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				470E146364FB2C5A9D461C924E74E9A2 /* Info.plist */,
+				EFE22387EA9BFCAF18FE689DF450B104 /* UICollectionViewLeftAlignedLayout.modulemap */,
+				027475B099E8A038468AD04889CD5D65 /* UICollectionViewLeftAlignedLayout.xcconfig */,
+				12545B80A0B4402D7D93BEFC0F56535B /* UICollectionViewLeftAlignedLayout-dummy.m */,
+				C2B23332FD018613210FCBB3FC1DCB35 /* UICollectionViewLeftAlignedLayout-prefix.pch */,
+				74A2D24331C3891317FD9CA2A705C122 /* UICollectionViewLeftAlignedLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UICollectionViewLeftAlignedLayout";
+			sourceTree = "<group>";
+		};
+		ED711A8EF4E05C0E888FB56E0E9E8961 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F9E8DF9CD1A6B6ACCFA6BA1C5FC74A2 /* Pods-WalmartUICollectionView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F74D989751814B2B9D301954790D8FE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64C688E01DF62F1ABF0D410B9B1A76E5 /* Info.plist */,
+				5CE43C797C3876D27789BFEB5B4ED22B /* TTTAttributedLabel.modulemap */,
+				44F920118480FC501E28D62ABB8A415D /* TTTAttributedLabel.xcconfig */,
+				143A5B32FC0049D1D51D8A8F02AD01DF /* TTTAttributedLabel-dummy.m */,
+				CB7DEDDCAEE2BB197269F932B757B5FF /* TTTAttributedLabel-prefix.pch */,
+				E2DB319F2ADBE86682F21EBE72CD3003 /* TTTAttributedLabel-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TTTAttributedLabel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C0A16211339F74392E913F064D85320 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE755D2C004978D6F65D33CAEC9D09E /* UICollectionViewLeftAlignedLayout-umbrella.h in Headers */,
+				394AAC722841CBF83FF5BDC20EABEBFD /* UICollectionViewLeftAlignedLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C69A439A556BBE60B73BFE339AE1737 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5BD394D24066A1C7CA0446F7EA6D2C /* TTTAttributedLabel-umbrella.h in Headers */,
+				FE7FE4349E50E1DD8FFCBC4CE6374E6A /* TTTAttributedLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01794006645F30F90404C589513DF1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C165F722F3D9B332DAB7D25373D182 /* Pods-WalmartUICollectionView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1095C6E24FF651D31330FBA38A063D04 /* UICollectionViewLeftAlignedLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4108E14ACBA15891CAFFDF2E9D25B8 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */;
+			buildPhases = (
+				B5046EEB966BED1FD00CB165593F6379 /* Sources */,
+				7201467A1DE0E305A5F2403C20F12698 /* Frameworks */,
+				2C0A16211339F74392E913F064D85320 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UICollectionViewLeftAlignedLayout;
+			productName = UICollectionViewLeftAlignedLayout;
+			productReference = 26CEF59F46650E41719298AF50E4D03C /* UICollectionViewLeftAlignedLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76A4A02778FF71F150972FEA2EA6B14E /* Pods-WalmartUICollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C290853512372871D1A0A07C6CF620E /* Build configuration list for PBXNativeTarget "Pods-WalmartUICollectionView" */;
+			buildPhases = (
+				3606CD978FE607EDC252C6662B15FE35 /* Sources */,
+				3D66C838647CFD6CC30ED0D0A4BB72F6 /* Frameworks */,
+				B01794006645F30F90404C589513DF1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E72ACC00D458046B6094D2FFCA1565 /* PBXTargetDependency */,
+				406B4956671D76D31AC3D8CA7FE06A0B /* PBXTargetDependency */,
+			);
+			name = "Pods-WalmartUICollectionView";
+			productName = "Pods-WalmartUICollectionView";
+			productReference = 0D048D0E7A43E9550AFDBB9F8097E91B /* Pods_WalmartUICollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED80C6698BB04563BA2E3956C26B7FD9 /* TTTAttributedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E45321E176AE4B32610E3F7643C3A7 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */;
+			buildPhases = (
+				489B31257A5C36626A65D61C3FCAFC69 /* Sources */,
+				6F55B717093B3AF42564D3330F309EEF /* Frameworks */,
+				9C69A439A556BBE60B73BFE339AE1737 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTAttributedLabel;
+			productName = TTTAttributedLabel;
+			productReference = 7CB2952E7FD11410FBEC76C0C7B6E565 /* TTTAttributedLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 11F70C37D103F1D7F19E68692FCC7BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A4A02778FF71F150972FEA2EA6B14E /* Pods-WalmartUICollectionView */,
+				ED80C6698BB04563BA2E3956C26B7FD9 /* TTTAttributedLabel */,
+				1095C6E24FF651D31330FBA38A063D04 /* UICollectionViewLeftAlignedLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3606CD978FE607EDC252C6662B15FE35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9B272E7F64AFFDBDF17B449541CA7E3 /* Pods-WalmartUICollectionView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		489B31257A5C36626A65D61C3FCAFC69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA6B83A5544090E91F1042FF14EA20A /* TTTAttributedLabel-dummy.m in Sources */,
+				1398E6F7C98B43E6822B8F8C98081CD7 /* TTTAttributedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5046EEB966BED1FD00CB165593F6379 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09CB0457C3EEC170D77911B3523E34B2 /* UICollectionViewLeftAlignedLayout-dummy.m in Sources */,
+				9A60871F5C9FEF775B2506E069EB0D52 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		406B4956671D76D31AC3D8CA7FE06A0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UICollectionViewLeftAlignedLayout;
+			target = 1095C6E24FF651D31330FBA38A063D04 /* UICollectionViewLeftAlignedLayout */;
+			targetProxy = BB08E5B8E9AD000F30FF61224066AA2F /* PBXContainerItemProxy */;
+		};
+		40E72ACC00D458046B6094D2FFCA1565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TTTAttributedLabel;
+			target = ED80C6698BB04563BA2E3956C26B7FD9 /* TTTAttributedLabel */;
+			targetProxy = 8D3C292B7245E563D2A8D9E71297336C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14E251140ED3C69C7DC36AFAE1072FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F920118480FC501E28D62ABB8A415D /* TTTAttributedLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TTTAttributedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43ECAC746B292D8D5A78202F2B789BCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027475B099E8A038468AD04889CD5D65 /* UICollectionViewLeftAlignedLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UICollectionViewLeftAlignedLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6700E613B52D65F36CF6848662C720E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027475B099E8A038468AD04889CD5D65 /* UICollectionViewLeftAlignedLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UICollectionViewLeftAlignedLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		841F0B0CE27B553864B1193075A2ECAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F41C7C8271359080648E44821CBE66 /* Pods-WalmartUICollectionView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalmartUICollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalmartUICollectionView/Pods-WalmartUICollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WalmartUICollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E1145D691FC45066CA00927B32EC7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F920118480FC501E28D62ABB8A415D /* TTTAttributedLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TTTAttributedLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TTTAttributedLabel/TTTAttributedLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TTTAttributedLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B587585BB832EBD4B2E14876C4789438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E73173EC8A903A26ECFDFC09FEDBFD8 /* Pods-WalmartUICollectionView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WalmartUICollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WalmartUICollectionView/Pods-WalmartUICollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WalmartUICollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E45321E176AE4B32610E3F7643C3A7 /* Build configuration list for PBXNativeTarget "TTTAttributedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E1145D691FC45066CA00927B32EC7B /* Debug */,
+				14E251140ED3C69C7DC36AFAE1072FF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4108E14ACBA15891CAFFDF2E9D25B8 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6700E613B52D65F36CF6848662C720E8 /* Debug */,
+				43ECAC746B292D8D5A78202F2B789BCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C290853512372871D1A0A07C6CF620E /* Build configuration list for PBXNativeTarget "Pods-WalmartUICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F0B0CE27B553864B1193075A2ECAC /* Debug */,
+				B587585BB832EBD4B2E14876C4789438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

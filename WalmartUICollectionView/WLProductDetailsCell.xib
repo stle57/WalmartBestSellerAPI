@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F2009" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WLProductDetailsCell" id="udA-CJ-b9X" userLabel="Walmart Product URL Cell" customClass="WLProductDetailsCell" customModule="WalmartUICollectionView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="195"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="195"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click here to go to product link:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0r-9g-5yU" userLabel="Title Label" customClass="TTTAttributedLabel">
+                        <rect key="frame" x="8" y="8" width="304" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="SdV-LI-sbl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Model Number:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wp-sw-2EU" userLabel="Description Label">
+                        <rect key="frame" x="8" y="52" width="304" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="HqG-wA-Vfg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shipping Rate:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZs-jc-oUM" userLabel="Shipping Rate Label">
+                        <rect key="frame" x="8" y="104" width="304" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="aqT-wF-Lob"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEw-WG-bYg" userLabel="Item Color Label">
+                        <rect key="frame" x="8" y="151" width="304" height="39"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="39" id="bVx-W4-UAZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="4wp-sw-2EU" firstAttribute="width" secondItem="d0r-9g-5yU" secondAttribute="width" id="315-sa-NNi"/>
+                <constraint firstAttribute="trailing" secondItem="d0r-9g-5yU" secondAttribute="trailing" constant="8" id="A7i-jV-sJF"/>
+                <constraint firstItem="hZs-jc-oUM" firstAttribute="trailing" secondItem="4wp-sw-2EU" secondAttribute="trailing" id="BEB-Gi-cyK"/>
+                <constraint firstItem="zEw-WG-bYg" firstAttribute="trailing" secondItem="hZs-jc-oUM" secondAttribute="trailing" id="Ek3-DU-aob"/>
+                <constraint firstItem="zEw-WG-bYg" firstAttribute="leading" secondItem="hZs-jc-oUM" secondAttribute="leading" id="GEO-Xp-91A"/>
+                <constraint firstItem="hZs-jc-oUM" firstAttribute="top" secondItem="4wp-sw-2EU" secondAttribute="bottom" constant="13" id="JFb-93-zfO"/>
+                <constraint firstItem="zEw-WG-bYg" firstAttribute="top" secondItem="hZs-jc-oUM" secondAttribute="bottom" constant="8" symbolic="YES" id="JWS-oG-W6z"/>
+                <constraint firstItem="4wp-sw-2EU" firstAttribute="top" secondItem="d0r-9g-5yU" secondAttribute="bottom" constant="5" id="NgH-AI-7j1"/>
+                <constraint firstItem="d0r-9g-5yU" firstAttribute="leading" secondItem="udA-CJ-b9X" secondAttribute="leading" constant="8" id="PAB-z5-QMc"/>
+                <constraint firstItem="d0r-9g-5yU" firstAttribute="top" secondItem="udA-CJ-b9X" secondAttribute="top" constant="8" id="m4e-Tc-RxI"/>
+                <constraint firstItem="4wp-sw-2EU" firstAttribute="centerX" secondItem="d0r-9g-5yU" secondAttribute="centerX" id="nrg-nw-N0U"/>
+                <constraint firstItem="hZs-jc-oUM" firstAttribute="leading" secondItem="4wp-sw-2EU" secondAttribute="leading" id="rLQ-jl-s28"/>
+            </constraints>
+            <size key="customSize" width="320" height="195"/>
+            <connections>
+                <outlet property="descriptionHeight" destination="HqG-wA-Vfg" id="EjP-rI-X1u"/>
+                <outlet property="descriptionLabel" destination="4wp-sw-2EU" id="eMd-zp-ifp"/>
+                <outlet property="itemColorHeight" destination="bVx-W4-UAZ" id="Gyo-Vh-93D"/>
+                <outlet property="itemColorLabel" destination="zEw-WG-bYg" id="jLu-Vv-Iaq"/>
+                <outlet property="shippingRateHeight" destination="aqT-wF-Lob" id="1Y0-rN-AbQ"/>
+                <outlet property="shippingRateLabel" destination="hZs-jc-oUM" id="Z7u-BS-8jc"/>
+                <outlet property="titleHeight" destination="SdV-LI-sbl" id="7Pg-yo-x8c"/>
+                <outlet property="titleLabel" destination="d0r-9g-5yU" id="5lA-Tm-gWs"/>
+            </connections>
+            <point key="canvasLocation" x="122" y="72.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

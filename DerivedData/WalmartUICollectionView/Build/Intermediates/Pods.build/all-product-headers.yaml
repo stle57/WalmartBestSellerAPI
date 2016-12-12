@@ -1,0 +1,97 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/Pods_WalmartUICollectionView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-WalmartUICollectionView-umbrella.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/Pods/Target Support Files/Pods-WalmartUICollectionView/Pods-WalmartUICollectionView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_WalmartUICollectionView-Swift.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/Pods_WalmartUICollectionView.framework/Headers/Pods_WalmartUICollectionView-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/Pods_WalmartUICollectionView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-WalmartUICollectionView.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/TTTAttributedLabel/TTTAttributedLabel.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "TTTAttributedLabel-Swift.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/TTTAttributedLabel/TTTAttributedLabel.framework/Headers/TTTAttributedLabel-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "TTTAttributedLabel-umbrella.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/Pods/Target Support Files/TTTAttributedLabel/TTTAttributedLabel-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "TTTAttributedLabel.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/Pods/TTTAttributedLabel/TTTAttributedLabel/TTTAttributedLabel.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/TTTAttributedLabel/TTTAttributedLabel.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Intermediates/Pods.build/Debug-iphonesimulator/TTTAttributedLabel.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "UICollectionViewLeftAlignedLayout-Swift.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework/Headers/UICollectionViewLeftAlignedLayout-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "UICollectionViewLeftAlignedLayout-umbrella.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/Pods/Target Support Files/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "UICollectionViewLeftAlignedLayout.h",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/Pods/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Products/Debug-iphonesimulator/UICollectionViewLeftAlignedLayout/UICollectionViewLeftAlignedLayout.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/LeFamily/Development/WalmartUICollectionView/DerivedData/WalmartUICollectionView/Build/Intermediates/Pods.build/Debug-iphonesimulator/UICollectionViewLeftAlignedLayout.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
