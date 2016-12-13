@@ -8,7 +8,11 @@
 
 import Foundation
 
+/*!
+**  The class holds the details of a particular product that is sold
+*/
 class Product {
+
     var name:String?
     var salePrice:Double?
     var msrpPrice:Double?
@@ -27,6 +31,11 @@ class Product {
         self.thumbnailURL = image
     }
 
+    /**
+     Init
+     - parameter json: An object that is a NSDictionary
+     - Returns: Product or nil
+     */
     init?(json: AnyObject) {
 
         guard let productItem = json as? NSDictionary,
@@ -55,6 +64,9 @@ class Product {
         self.standardShippingRate = standardShippingRate
     }
 
+    /**
+     Prints the properties of the Product object
+     */
     func printProductDetail() {
         print ("name: " + self.name!)
         print ("shortDescription: " + self.shortDescription!)
@@ -67,5 +79,45 @@ class Product {
         print ("standardShippingRate: " + (self.standardShippingRate?.description)!)
     }
 
+    /**
+     Makes the sale price and msrp text to display
+     - parameter salePrice: Sales Price
+     - parameter msrpPrice: MSRP Price
+     - Returns: Concatenated String that contains the sales price and MSRP price
+     */
+    func getPriceText(salePrice: String, msrpPrice:String) -> String {
+        return String("Sale Price: $" + salePrice + ", MSRP: $" + msrpPrice)
+    }
 
+    /**
+     Makes the short description text to display
+     - Returns: Concatenated String that contains the description
+     */
+    func getDescriptionText() -> String {
+        return String("Description\n" + self.shortDescription!)
+    }
+
+    /**
+     Make the model text.
+     - Returns: Concatenated String that contains the model number
+    */
+    func getModelText() -> String {
+        return String("Model Number:" + self.modelNumber!)
+    }
+
+    /**
+     Make the shipping rate text.
+     - Returns: Concatenated string that contains the shipping reate
+     */
+    func getShippingRateText() -> String {
+        return String("Shipping Rate:" + (self.standardShippingRate?.description)!)
+    }
+
+    /**
+     Make the color text.
+     - Returns: Concatenated string that contains the shipping reate
+     */
+    func getColorText() -> String {
+        return String("Item Color:" + self.color!)
+    }
 }

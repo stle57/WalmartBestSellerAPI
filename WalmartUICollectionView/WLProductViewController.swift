@@ -8,19 +8,27 @@
 
 import UIKit
 
+/**
+WLPoductViewController class handles the communication between data model and views.  It tells the views
+** to load data and draw the views for each of the items within the collection view
+*/
+
 class WLProductViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
     let identifier = "wlProductCell"
     let headerViewIdentifier = "CategoryHeaderView"
     
     @IBOutlet weak var collectionView: UICollectionView!
-    var allItems = [Category]()
+
+    /**
+     Contains data from the Walmart API organized by Category
+     */
+    var categories = [Category]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //Get data from WLAPIClient
         loadData()
-        //Load the data
-
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,22 +39,20 @@ class WLProductViewController: UIViewController, UICollectionViewDelegate, UICol
 
     //MARK: - UICollectionViewDataSource Delegate
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return self.allItems.count
+        return self.categories.count
     }
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print ("all items count=" + String(self.allItems.count))
-        //Needs to be category[idx].product.count
-        return (self.allItems[section].products?.count)!
+        return (self.categories[section].products?.count)!
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("wlProductCell", forIndexPath: indexPath) as! WLProductCollectionCell
-        let products: [Product] = self.allItems[indexPath.section].products!
+        let products: [Product] = self.categories[indexPath.section].products!
 
         cell.productLabel.text = products[indexPath.row].name
         cell.productLabel.font = WLConstants.fontSemiBoldSized(11)
-
+        cell.productLabel.textColor = UIColor.blueColor()
         WLAPIClient.fetchImage(products[indexPath.row].thumbnailURL!){ image in
             cell.imageView.image = image
         }
@@ -54,14 +60,15 @@ class WLProductViewController: UIViewController, UICollectionViewDelegate, UICol
         return cell
     }
 
+    //segue to WLProductDetailViewController
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showProductDetail" {
             let indexPaths = self.collectionView!.indexPathsForSelectedItems()!
             let indexPath = indexPaths[0] as NSIndexPath
 
             let vc = segue.destinationViewController as! WLProductDetailViewController
-            vc.title = self.allItems[indexPath.section].products![indexPath.row].name
-            vc.product = self.allItems[indexPath.section].products![indexPath.row]
+            //vc.title = self.categories[indexPath.section].products![indexPath.row].name
+            vc.product = self.categories[indexPath.section].products![indexPath.row]
          }
     }
 
@@ -69,21 +76,29 @@ class WLProductViewController: UIViewController, UICollectionViewDelegate, UICol
 
         let headerView: WLCategoryHeaderView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: headerViewIdentifier, forIndexPath: indexPath) as! WLCategoryHeaderView
 
-        headerView.categorySectionLabel.text = self.allItems[indexPath.section].name
+        headerView.categorySectionLabel.text = self.categories[indexPath.section].name
         headerView.categorySectionLabel.font = WLConstants.fontBoldSized(22)
         return headerView
     }
 
+    /**
+     Method loads best seller products and reloads the collection view
+     with data.
+     */
     func loadData() {
-        WLAPIClient.sharedInstance.hello()
         WLAPIClient.sharedInstance.loadBestSellerProducts{[weak self] (items) in
-            self?.allItems = items
+            self?.categories = items
             self?.collectionView.reloadData()
         }
     }
 
+    /**
+     The method gets the Products associated to the Category object
+     - parameter index: The category item
+     - Returns: An array of Products for the specific Category item
+     */
     func getProductItems(index: Int) -> [Product] {
-        let items = self.allItems[index].products
+        let items = self.categories[index].products
 
         return items!
     }

@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+/*
+Common methods that are used within the WalmartUICollectionView app
+*/
 class WLConstants {
 
     // #MARK - Fonts
@@ -27,5 +30,9 @@ class WLConstants {
 
     static func fontBoldSized(size: Int) -> UIFont {
         return UIFont(name: "ProximaNova-Bold" , size: CGFloat(size))!
+    }
+
+    static func buyProductString() -> String {
+        return "Buy Product"
     }
 }

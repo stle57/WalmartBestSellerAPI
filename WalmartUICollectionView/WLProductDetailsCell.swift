@@ -25,7 +25,7 @@ class WLProductDetailsCell: UICollectionViewCell, TTTAttributedLabelDelegate {
         let label = UILabel()
         label.numberOfLines = 0
         label.font = WLConstants.fontRegularSized(15)
-        label.text = "Buy Product"
+        label.text = WLConstants.buyProductString()
 
 
         let padding : CGFloat = 8
@@ -33,47 +33,38 @@ class WLProductDetailsCell: UICollectionViewCell, TTTAttributedLabelDelegate {
         let titleSize = label.sizeThatFits(CGSize(width: width, height: CGFloat.max))
 
         label.font = WLConstants.fontRegularSized(15)
-        label.text = String("Model Number: " + product.modelNumber!)
+        label.text = product.getModelText()
         let descriptionSize = label.sizeThatFits(CGSize(width: width, height: CGFloat.max))
 
-        label.text = String("Shipping Rate: " + (product.standardShippingRate?.description)!)
-        WLConstants.fontRegularSized(12)
+        label.text = product.getShippingRateText()
+        WLConstants.fontRegularSized(15)
         let shippingSize = label.sizeThatFits(CGSize(width: width, height: CGFloat.max))
 
-        label.text = String("Color: " + product.color!)
+        label.text = product.getColorText()
         let itemColorSize = label.sizeThatFits(CGSize(width: width, height: CGFloat.max))
 
 
-        return CGSize(width: UIScreen.mainScreen().bounds.size.width, height: descriptionSize.height + titleSize.height + shippingSize.height + itemColorSize.height + (3 * padding))
+        return CGSize(width: UIScreen.mainScreen().bounds.size.width, height: descriptionSize.height + titleSize.height + shippingSize.height + itemColorSize.height + (4 * padding))
 
     }
 
     func setup(product : Product) {
-        titleLabel.layer.borderColor = UIColor.redColor().CGColor
-        titleLabel.layer.borderWidth = 0.5
         titleLabel.font = WLConstants.fontRegularSized(15)
 
-        let str : NSString = "Buy Product"
+        let str : NSString = WLConstants.buyProductString()
         titleLabel.delegate = self
         titleLabel.text = str as String
-        let range : NSRange = str.rangeOfString("Buy Product")
+        let range : NSRange = str.rangeOfString(WLConstants.buyProductString())
         titleLabel.addLinkToURL(NSURL(string: product.productURL!)!, withRange: range)
-        print ("product url=" + product.productURL!)
 
-        descriptionLabel.text = String("Model Number: " + product.modelNumber!)
-//        descriptionLabel.layer.borderWidth = 0.5
-//        descriptionLabel.layer.borderColor = UIColor.greenColor().CGColor
+        descriptionLabel.text = product.getModelText()
         descriptionLabel.font = WLConstants.fontRegularSized(15)
 
-        shippingRateLabel.text = String("Shipping Rate: " + (product.standardShippingRate?.description)!)
-        shippingRateLabel.layer.borderWidth = 0.5
-        shippingRateLabel.layer.borderColor = UIColor.greenColor().CGColor
-        shippingRateLabel.font = WLConstants.fontRegularSized(12)
+        shippingRateLabel.text = product.getShippingRateText()
+        shippingRateLabel.font = WLConstants.fontRegularSized(15)
 
-        itemColorLabel.text = String("Color: " + product.color!)
-//        itemColorLabel.layer.borderWidth = 0.5
-//        itemColorLabel.layer.borderColor = UIColor.greenColor().CGColor
-        itemColorLabel.font = WLConstants.fontRegularSized(12)
+        itemColorLabel.text = product.getColorText()
+        itemColorLabel.font = WLConstants.fontRegularSized(15)
 
 
         var size = self.titleLabel.sizeThatFits(CGSize(width: self.titleLabel.frame.size.width, height: CGFloat.max))
@@ -88,6 +79,13 @@ class WLProductDetailsCell: UICollectionViewCell, TTTAttributedLabelDelegate {
         itemColorHeight.constant = size.height
     }
 
+    // MARK: TTTAttributeLabelDelegate
+
+    /**
+     Delegate which opens the URL in safari
+     - parameter label: TTTAttributedLabel object
+     - parameter didSelectLinkWithURL: the URL to open
+     */
     func attributedLabel(label: TTTAttributedLabel!, didSelectLinkWithURL url: NSURL!) {
         UIApplication.sharedApplication().openURL(url)
     }

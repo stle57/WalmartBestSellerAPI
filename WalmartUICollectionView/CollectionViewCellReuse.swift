@@ -10,6 +10,9 @@ import Foundation
 
 import UIKit
 
+/**
+ Contains common methods used for a UICollectionViewController class(WLProductDetailsViewController)
+*/
 class CollectionViewCellReuse: NSObject {
 
     let collectionView : UICollectionView

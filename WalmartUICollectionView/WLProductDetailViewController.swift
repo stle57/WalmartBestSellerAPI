@@ -8,14 +8,23 @@
 
 import UIKit
 
+
+/**
+ WLProductDetailSections is an Enum describing each section of the UICollectionView
+*/
 enum WLProductDetailSections : Int {
     // Just set the first one to = 0 if order changes. each following auto-increment
     case Image = 0
     case Description
     case Details
-    //case Brand
 }
 
+/**
+WLProductDetailViewController draws each view within the UICollectionView
+Each section in the UICollectionView represents some description of the product
+given to the view by the model(Product).  The UICollectionView contained within
+the controller is divided up into 3 sections, referenced by the WLProductDetailSections
+*/
 class WLProductDetailViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     @IBOutlet weak var collectionView: UICollectionView!
@@ -30,7 +39,17 @@ class WLProductDetailViewController: UIViewController, UICollectionViewDelegate,
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationItem.title = product?.name
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+        label.center = CGPoint(x: 160, y: 285)
+        label.textAlignment = .Center
+        label.text = product?.name
+       label.textColor = UIColor.blueColor()
+        label.font = WLConstants.fontSemiBoldSized(16)
+        label.lineBreakMode = NSLineBreakMode.ByTruncatingTail
+        label.sizeToFit()
+        label.text = product?.name
+        label.numberOfLines = 0
+        self.navigationItem.titleView = label
 
         self.collectionView!.dataSource = self
         self.collectionView!.delegate = self
@@ -45,17 +64,6 @@ class WLProductDetailViewController: UIViewController, UICollectionViewDelegate,
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 
     /*
@@ -110,6 +118,9 @@ class WLProductDetailViewController: UIViewController, UICollectionViewDelegate,
 
     // MARK: UICollectionViewDelegateFlowLayout
 
+    /** 
+    Calculates the size of each section
+    */
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         if let sect = WLProductDetailSections(rawValue: indexPath.section) {
             switch sect {

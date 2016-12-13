@@ -17,7 +17,6 @@ class WLProductImageCell: UICollectionViewCell {
     //    }
 
     static func sizeForItem() -> CGSize {
-        print ("inside product image cell sizeforitem")
         return CGSize(width: UIScreen.mainScreen().bounds.size.width, height: UIScreen.mainScreen().bounds.size.width)
     }
 

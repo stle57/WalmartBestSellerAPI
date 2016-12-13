@@ -8,6 +8,9 @@
 
 import UIKit
 
+/**
+ Contains methods which setup the different cells used within WLProductDetailsViewController
+*/
 class CollectionViewCellSetup {
 
     static func wlProductImageCell(cell : UICollectionViewCell, product: Product) -> UICollectionViewCell {
@@ -16,7 +19,6 @@ class CollectionViewCellSetup {
         WLAPIClient.fetchImage(product.mediumImageURL!){ image in
             real.imageView.image = image
         }
-
         return cell
     }
 
@@ -27,22 +29,9 @@ class CollectionViewCellSetup {
         return real
     }
 
-//    static func profileLogCell(cell : UICollectionViewCell, log: Log) -> UICollectionViewCell {
-//        let real = cell as! ProfileLogCell
-//        real.setup(log)
-//        return cell
-//    }
-
     static func wlProductURLCell(cell : UICollectionViewCell, product: Product) -> UICollectionViewCell {
         let real = cell as! WLProductDetailsCell
         real.setup(product)
         return cell
     }
-
-//    static func wlProductPreviewSectionHeaderCell(cell : UICollectionViewCell, text: String) -> UICollectionViewCell {
-//        let real = cell as! wlProductPreviewSectionHeaderCell
-//        real.setup(text)
-//        return cell
-//    }
-
 }

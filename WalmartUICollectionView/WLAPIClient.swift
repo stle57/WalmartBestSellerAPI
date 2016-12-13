@@ -9,6 +9,9 @@
 import Foundation
 import UIKit
 
+/**
+ Communicates with
+*/
 class WLAPIClient {
 
     static let sharedInstance = WLAPIClient()
@@ -19,19 +22,9 @@ class WLAPIClient {
         BASE_URL = APIKeys.valueForAPIKey(named: String("WALMART_BASE_URL")) as! String
         WL_API_CLIENT_ID = APIKeys.valueForAPIKey(named: String("WALMART_API_CLIENT_ID")) as! String
     }
-
-    func hello() {
-        print("HELLO FROM WLAPICLIENT")
-    }
     
     func loadBestSellerProducts(completion:([Category])->()) {
-
-        /* url = http://api.walmartlabs.com/v1/taxonomy?apiKey={apiKey} */
         let url = NSURL(string: WLAPIClient.sharedInstance.BASE_URL+"v1/feeds/bestsellers?apikey="+WL_API_CLIENT_ID+"&categoryId=3944&format=json")!
-        //let url = NSURL(string: "https://api.walmartlabs.com/v1/trends?format=json&apiKey=v29uycrkdrkzgaah45pupzsn")!
-
-        let string = "\(url)"
-        print ("url=" + string)
 
         let task = NSURLSession.sharedSession()
             .dataTaskWithURL(url) { (data, response, error) in
